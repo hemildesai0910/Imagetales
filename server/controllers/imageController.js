@@ -1,6 +1,6 @@
 import axios from "axios";
 import FormData from "form-data";
-import userModel from "../models/usermodel.js";
+import userModel from "../models/userModel.js";
 
 export const generateImage = async (req, res) => {
     try {
